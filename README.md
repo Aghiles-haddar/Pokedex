@@ -3,23 +3,20 @@ Ce projet est un site Pokedex qui regroupe les informations sur les Pokemon. Il 
 Cloner le projet
 Pour cloner le projet, vous pouvez utiliser la commande suivante dans votre terminal :
 
-bash
-Copy code
+
 git clone https://github.com/votre_nom_utilisateur/pokedex.git
 Installation
 Pour lancer le projet, vous devez d'abord installer toutes les dépendances nécessaires. Dans le répertoire du projet, exécutez la commande suivante :
 
-Copy code
+
 npm install
 Lancement
 Pour lancer le serveur, vous devez naviguer vers le répertoire où se trouve le fichier server.js et exécuter la commande suivante :
 
-Copy code
+
 node server.js
 Une fois que le serveur est lancé, vous pouvez lancer le projet en exécutant la commande suivante :
 
-sql
-Copy code
 npm start
 Auteur
 Ce projet a été réalisé par Aghiles Haddar.
