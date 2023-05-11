@@ -1,4 +1,4 @@
-Ce projet est un site Pokedex qui regroupe les informations sur les Pokemon. Il fonctionne grâce à une API REST développée avec Express et Node.js. Les données sont stockées dans un fichier server.json. Le projet a été développé en utilisant React.
+Ce projet est un site Pokedex qui regroupe les informations sur les Pokemon. Il fonctionne grâce à une API REST développée avec Express et Node.js. Les données sont stockées dans un fichier data.json. Le projet a été développé en utilisant React.
 
 Cloner le projet
 Pour cloner le projet, vous pouvez utiliser la commande suivante dans votre terminal :
