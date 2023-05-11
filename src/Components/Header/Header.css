@@ -1,0 +1,276 @@
+
+
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #F5DB13;
+}
+
+.container-global-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-left-header{
+    display: flex;
+    gap: 64px;
+    flex-direction: column;
+    margin-left: 156px;
+    margin-top: 128px;
+}
+
+.container-left-header>:nth-child(1){
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 4px;
+    color: #000000;
+}
+
+.container-left-header>:nth-child(1)>span{
+    font-weight: 400;
+}
+
+.container-left-header>:nth-child(2){
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.container-left-header>:nth-child(3){
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212121;
+    background: #73D677;
+    box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 11px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 238px;
+    border: none;
+    cursor: pointer;
+}
+
+.container-right-header{
+    position: relative;
+}
+
+
+.pika{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    z-index: 2;
+}
+
+.container-bottom-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 161px;
+    margin-left: 127px;
+    margin-right: 188px;
+}
+
+.container-bottom-header>*{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212121;
+    padding: 30px;
+}
+
+.display{
+    display: flex;
+}
+
+@media only screen and (max-width: 768px){
+    .container-header{
+        flex-direction: column;
+    }
+
+    .container-global-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-right-header {
+        order: 1;
+        width: 400px;
+        height: 287px;
+        background-image: url('../../Assets/mobile1.png'); 
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 32px;
+      }
+      
+
+    .container-left-header{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        align-items: center;
+        text-align: center;
+        order: 2;
+        margin-top: 32px;
+    }
+
+    .container-bottom-header{
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        line-height: 0px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .container-bottom-header>*{
+        padding: 5px 0px 0px 0px;
+    }
+
+    .container-left-header>:nth-child(1){
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 64px;
+        text-align: center;
+        letter-spacing: 4px;
+        color: #000000;
+        margin: 20px;
+        margin: 0;
+        align-items: center;
+    }
+
+    .container-left-header>:nth-child(2){
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    
+    .banner{
+        display: none;
+    }
+
+    .pika{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1385px){
+    .container-header{
+        flex-direction: column;
+    }
+
+    .container-global-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-right-header {
+        order: 1;
+        width: 410px;
+        height: 287px;
+        background-image: url('../../Assets/tablet1.png'); 
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 90px;
+        position: relative;
+        left: 220px;
+        transform: scale(1.6);
+        margin-bottom: 40px;
+      }
+      
+
+    .container-left-header{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        align-items: center;
+        text-align: center;
+        order: 2;
+        margin-top: 32px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .container-bottom-header{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 32px;
+        margin-right: 0px;
+        margin-left: 0px;
+        align-items: center;
+        text-align: center;
+        gap: 0px;
+        margin-bottom: 38px;
+        margin-top: 80px;
+    }
+
+    .container-left-header>:nth-child(1){
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 84px;
+        text-align: center;
+        letter-spacing: 4px;
+
+        color: #000000;
+    }
+
+    .container-left-header>:nth-child(2){
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+
+    .display{
+        display: none;
+    }
+    
+    
+    .banner{
+        display: none;
+    }
+
+    .pika{
+        display: none;
+    }
+
+}

@@ -1,0 +1,123 @@
+
+{
+    "pokemon": [
+      {
+        "id": 1,
+        "name": "Pulbasaur",
+        "type": ["Grass", "Poison"],
+        "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+        "image": "../Assets/winner1.png",
+        "attack": "487",
+        "defense": "15",
+        "background": "linear-gradient(180deg, #3FBDFE 42.19%, #9BBAD6 100%)",
+        "imageoverlay":"../Assets/overlay1.png",
+        "spattack":"145",
+        "spdefense":"185"
+      },
+      {
+        "id": 2,
+        "name": "Pyroar",
+        "type": ["Fire"],
+        "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+        "image": "../Assets/winner2.png",
+        "attack": "827",
+        "defense": "29",
+        "background": "linear-gradient(180deg, #C3382C 42.19%, #483F3B 100%)",
+        "imageoverlay":"../Assets/overlay2.png",
+        "spattack":"894",
+        "spdefense":"811"
+      },
+      {
+        "id": 3,
+        "name": "Pikachu",
+        "type": ["Water"],
+        "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
+        "image": "../Assets/winner3.png",
+        "attack": "157",
+        "defense": "37",
+        "background": "linear-gradient(180deg, #F3C908 42.19%, #967514 100%)",
+        "imageoverlay":"../Assets/overlay3.png",
+        "spattack":"344",
+        "spdefense":"459"
+      },
+      {
+        "id": 4,
+        "name": "Quilava",
+        "type": ["Electric"],
+        "description": "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
+        "image": "../Assets/winner4.png",
+        "attack": "327",
+        "defense": "41",
+        "background": "linear-gradient(180deg, #64D368 42.19%, #FEEA73 100%)",
+        "imageoverlay":"../Assets/overlay4.png",
+        "spattack":"628",
+        "spdefense":"982"
+      },
+      {
+        "id": 5,
+        "name": "Squirtle",
+        "type": ["Normal", "Fairy"],
+        "description": "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+        "image": "../Assets/winner5.png",
+        "attack": "787",
+        "defense": "86",
+        "background": "linear-gradient(180deg, #3DBDFF 42.19%, #96D4D0 100%)",
+        "imageoverlay":"../Assets/overlay5.png",
+        "spattack":"892",
+        "spdefense":"287"
+      },
+      {
+        "id": 6,
+        "name": "Charizard",
+        "type": ["Water"],
+        "description": "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.",
+        "image": "../Assets/winner6.png",
+        "attack": "947",
+        "defense": "25",
+        "background": "linear-gradient(180deg, #732119 42.19%, #D93E30 100%)",
+        "imageoverlay":"../Assets/hover1.png",
+        "spattack":"755",
+        "spdefense":"541"
+      },
+      {
+        "id": 7,
+        "name": "Mudkip",
+        "type": ["Normal"],
+        "description": "Will eat anything, even if the food happens to be a little moldy. It never gets an upset stomach.",
+        "image": "../Assets/winner7.png",
+        "attack": "741",
+        "defense": "58",
+        "background":"linear-gradient(180deg, #40BEFE 42.19%, #427C9C 100%)",
+        "imageoverlay":"../Assets/overlay7.png",
+        "spattack":"785",
+        "spdefense":"784"
+      },
+      {
+        "id": 8,
+        "name": "Jigglypuff",
+        "type": ["Water"],
+        "description": "In the distant past, they were fairly strong, but they have become gradually weaker over time.",
+        "image": "../Assets/winner8.png",
+        "attack": "581",
+        "defense": "74",
+        "background": "linear-gradient(180deg, #F5B3BF 42.19%, #FFFFFF 100%)",
+        "imageoverlay":"../Assets/overlay8.png",
+        "spattack":"553",
+        "spdefense":"257"
+      },
+      {
+        "id": 9,
+        "name": "Tyranitar",
+        "type": ["Normal"],
+        "description": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.",
+        "image": "../Assets/winner9.png",
+        "attack": "642",
+        "defense": "69",
+        "background":"linear-gradient(180deg, #64D368 42.19%, #B1D99B 100%)",
+        "imageoverlay":"../Assets/overlay9.png",
+        "spattack":"245",
+        "spdefense":"891"
+      }
+    ]
+  }
+  
