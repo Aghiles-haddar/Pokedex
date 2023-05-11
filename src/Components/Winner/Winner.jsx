@@ -235,7 +235,7 @@ function Winner() {
                                 </div>
 
                                 <div className="overlay-avantages-card">
-                                    <p className="nomber-avanatges">{pokemon.spdefense}</p>
+                                    <p className="nomber-avanatges reder">{pokemon.spdefense}</p>
                                     <span className="details-avanatges">Sp Defense</span>
                                 </div>
 
